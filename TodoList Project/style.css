@@ -1,0 +1,64 @@
+.card {
+    background-color: #2B2D42 !important;
+    border-radius: 0;
+}
+.card-header{
+    background-color: #00A896;
+    color: white;
+}
+.card-header:first-child{
+    border-radius: 0;
+}
+
+.form-control{
+    border-radius: 0;
+    background-color: #B0C4DE ;
+}
+.form-control:focus{
+    box-shadow: none;
+    background-color: #B0C4DE;
+
+}
+.add-btn{
+    background-color: #2ECC71;
+}
+.delete-btn{
+    background-color: #FF6347;
+}
+.delete-btn:hover{
+    color: white;
+}
+.btn{
+    border-radius: 0;
+    color: white;
+}
+
+.card-title{
+    color: white;
+}
+
+.list-group-item{
+    background-color: #FCF3CF;
+}
+.list-group-item:first-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.list-group-item:last-child {
+    margin-bottom: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+@media(max-width:1099px) {
+    .container{
+        max-width:100%;
+    }
+    
+}
+@media(min-width:1100px){
+    .container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
